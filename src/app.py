@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
-FLAG = "encryptid{...}"
+FLAG = "encryptid{c0nc3rt_c4nc3ll3d_1_gu355}"
 
 BLACKLIST = [
     '__', 'import', 'globals', 'subprocess', 'open', 'chr', 'getattr',
